@@ -1,3 +1,5 @@
+// shape rotate effect;
+
 $(document).ready(function() {
 
 
@@ -13,8 +15,16 @@ $(document).ready(function() {
         '-moz-transform': 'rotate(' + degrees + 'deg)',
         '-webkit-transform': 'rotate(' + degrees + 'deg)',
         '-o-transform': 'rotate(' + degrees + 'deg)'
-      });
-  
+      });  
     })
+});
 
+// main class fade in effect;
+
+$(document).ready(function() {
+  $('.main').css('display', 'none').fadeIn(2000);
+});
+
+$(document).ready(function() {
+  $('.shape').css('display', 'none').fadeIn(2500);
 });

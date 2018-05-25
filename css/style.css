@@ -247,7 +247,7 @@ h4 {
 
 /* media queries */
 
-@media all and (min-width: 300px) and (max-width: 500px) {  
+@media all and (min-width: 200px) and (max-width: 1023px) {  
 
 header {
     display: flex;
@@ -398,7 +398,7 @@ h4 {
 }
 }
 
-@media all and (min-width: 900px) and (max-width: 1100px) {
+@media all and (min-width: 1024px) and (max-width: 1100px) {
 
 header {
     display: flex;
